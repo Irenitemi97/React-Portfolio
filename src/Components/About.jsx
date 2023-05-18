@@ -2,17 +2,18 @@ import React from 'react'
 
 const About = () => {
   return (
-    <div name="about" className='w-full h-screen'>
+    <div name="about" className='w-full md:h-screen'>
         <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full'>
             <div className='pb-8'>
                 <p className='text-4xl font-bold inline border-b-4 border-gray-800'>About</p>
             </div>
-            <p className='text-xl mt-20'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. At magnam, accusantium esse consectetur quae molestiae nisi est maxime qui commodi architecto, ipsam sequi? Et alias mollitia dolorem natus asperiores sapiente, eaque quisquam ratione in soluta atque, qui neque delectus excepturi quibusdam at possimus, doloremque fugiat incidunt architecto ad consequatur eveniet?
+            <p className='text-xl mt-2'>
+            Hello, I'm <span className='font-bold'> Adeniran Sulyman Adebayo</span>. <br />
+            In this era of modern scientific technology, web development has become a driving force, and it perfectly aligns with my passion for delivering exceptional front-end user experiences. I am constantly motivated to explore the ever-evolving world of web development, combining my curiosity with a strong desire to create visually stunning and immersive digital experiences.
             </p>
             <br />
             <p className='text-xl'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae minima maxime ipsam rem molestiae. Quos quis cumque maxime dignissimos labore ratione recusandae delectus, vitae nulla fugiat mollitia corrupti debitis iusto.
+            Welcome to my portfolio, where you'll discover a showcase of my finest work. Take a moment to explore and immerse yourself in the world of captivating web design. I look forward to connecting with you and bringing your ideas to life.
             </p>
         </div>
     </div>
