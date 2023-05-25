@@ -8,7 +8,7 @@ const About = () => {
                 <p className='text-4xl font-bold inline border-b-4 border-gray-800'>About</p>
             </div>
             <p className='text-xl mt-2'>
-            Hello, I'm <span className='font-bold'> Adeniran Sulyman Adebayo</span>. <br />
+            Hello, I'm <span className='font-bold'> Sulyman Adebayo, Adeniran</span>. <br />
             In this era of modern scientific technology, web development has become a driving force, and it perfectly aligns with my passion for delivering exceptional front-end user experiences. I am constantly motivated to explore the ever-evolving world of web development, combining my curiosity with a strong desire to create visually stunning and immersive digital experiences.
             </p>
             <br />

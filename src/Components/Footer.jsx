@@ -88,7 +88,7 @@ const Footer = () => {
 
                     </ul >
                 </div>
-                <p className="text-center">© 2023 Your Website. All rights reserved.</p>
+                <p className="text-center">© 2023 S.A,Adeiran. All rights reserved.</p>
             </div>
         </footer>
     );

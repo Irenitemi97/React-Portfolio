@@ -50,7 +50,7 @@ const Portfolio = () => {
         <div className='grid h-70 sm:grid-cols-2 md:grid-cols-3 gap-8 py-8 px-12 sm:px-0'>
           {portfolios.map(({ id, src, tag, description, demoLink, codeLink }) => (
             <div key={id} className='shadow-md shadow-gray-800 rounded-lg'>
-              <img src={src} alt="" className='rounded-md h-40 duration-200 hover:scale-105' />
+              <img src={src} alt="" className='rounded-md h-40 duration-200 hover:scale-95' />
               <p className='text-2xl font-bold px-2 py-2'>{tag}</p>
               <p className='px-2'>{description}</p>
               <div className='flex items-center justify-center'>
