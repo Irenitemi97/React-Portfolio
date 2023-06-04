@@ -1,5 +1,6 @@
 import React from 'react';
 import tab from '../asset/tab.png';
+import U_tub from '../asset/u-tub.png';
 import random from '../asset/random.png';
 import tsp from '../asset/tsp.png';
 import smallridman from '../asset/smallridman.png';
@@ -8,6 +9,14 @@ const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
+      src: U_tub,
+      tag: 'U Tub',
+      description: "A you tube clone ",
+      demoLink: 'https://utubb.netlify.app/',
+      codeLink: 'https://github.com/Irenitemi97/You-tube-clone',
+    },
+    {
+      id: 2,
       src: tab,
       tag: 'eCommerce',
       description: "It's an eCommerce site designed with HTML, CSS, and JavaScript",
@@ -15,7 +24,7 @@ const Portfolio = () => {
       codeLink: 'https://github.com/Irenitemi97/E-commerce-',
     },
     {
-      id: 2,
+      id: 3,
       src: tsp,
       tag: 'Photography Portfolio',
       description: "It's a portfolio site designed with HTML, CSS, and JavaScript",
@@ -23,7 +32,7 @@ const Portfolio = () => {
       codeLink: 'https://github.com/Irenitemi97/TSPupdated',
     },
     {
-      id: 3,
+      id: 4,
       src: random,
       tag: 'Get Advice',
       description: "It generates random advice within 3 seconds with just a click",
@@ -31,7 +40,7 @@ const Portfolio = () => {
       codeLink: 'https://github.com/Irenitemi97/RANDOM-ADVISER',
     },
     {
-      id: 4,
+      id: 5,
       src: smallridman,
       tag: 'Portfolio',
       description: "It's a portfolio site designed with HTML, CSS, and JavaScript",
